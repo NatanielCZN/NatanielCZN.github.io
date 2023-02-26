@@ -1,0 +1,56 @@
+/**
+    Fuente para todo el documento
+*/
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+/**
+    Clase que pertenece a la foto de perfil
+*/
+.fotoDePerfil {
+    padding: 2px;
+    margin: 40px 0px 40px 0px;
+    width: 170;
+    height: 170px;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 50%;
+}
+
+i {
+    padding-right: 5px;
+}
+
+/**
+    Clase que abarca toda la zona del CV
+*/
+.cv {
+    background-color: white;
+}
+
+/**
+    Clase que divide articulos de una misma categoria
+*/
+.caja {
+    margin-bottom: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+/**
+    Clase que corresponde a la zona donde aparecera mi nombre
+*/
+.nombre {
+    font-size: 50px;
+}
+
+/**
+    Clase de la seccion de Informacion
+*/
+.contacto{
+    background-color: antiquewhite;
+}
