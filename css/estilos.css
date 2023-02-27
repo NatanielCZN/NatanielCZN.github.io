@@ -13,7 +13,6 @@ header {
     Clase que pertenece a la foto de perfil
 */
 .fotoDePerfil {
-    padding: 2px;
     margin: 40px 0px 40px 0px;
     width: 170;
     height: 170px;
@@ -34,23 +33,49 @@ i {
 }
 
 /**
-    Clase que divide articulos de una misma categoria
+    Clase que divide articulos de la seccion Informacion
 */
-.caja {
-    margin-bottom: 40px;
+.caja {    
     padding: 0px 20px 0px 20px;
+    margin-bottom: 40px;
+}
+
+/**
+    Clase que divide articulos de la seccion Desarrollo
+*/
+.caja2 {    
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 40px;
 }
 
 /**
     Clase que corresponde a la zona donde aparecera mi nombre
 */
 .nombre {
-    font-size: 50px;
+    background-color: rgb(196, 62, 88);    
+    color: antiquewhite;
+    padding: 40px 0px 20px 30px;
+    margin-bottom: 30px;
+}
+
+.nombre h2 {    
+    font-size: 70px;    
 }
 
 /**
     Clase de la seccion de Informacion
 */
-.contacto{
+.informacion{
     background-color: antiquewhite;
+}
+
+/**
+    Eliminar subrayado de los enlaces
+*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
