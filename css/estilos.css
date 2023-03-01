@@ -12,10 +12,10 @@ header {
 /**
     Clase que pertenece a la foto de perfil
 */
-.fotoDePerfil {
+.foto-de-perfil {
     margin: 40px 0px 40px 0px;
-    width: 170;
-    height: 170px;
+    width: 180;
+    height: 180px;
     border: 2px solid;
     border-color: gray;
     border-radius: 50%;
@@ -46,20 +46,21 @@ i {
 .caja2 {    
     padding: 0px 0px 0px 20px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 /**
-    Clase que corresponde a la zona donde aparecera mi nombre
+    Clase que corresponde a la zona donde aparecera mi Nombre
 */
 .nombre {
-    background-color: rgb(196, 62, 88);    
+    background-color: rgb(200, 60, 90);    
     color: antiquewhite;
     padding: 40px 0px 20px 30px;
     margin-bottom: 30px;
 }
 
 .nombre h2 {    
-    font-size: 70px;    
+    font-size: 70px;
 }
 
 /**
@@ -71,6 +72,7 @@ i {
 
 /**
     Eliminar subrayado de los enlaces
+    ---------------------------------
 */
 a:link {
     text-decoration: none;
@@ -78,4 +80,88 @@ a:link {
 
 a:visited {
     text-decoration: none;
+}
+/** 
+    ---------------------------------
+*/
+
+footer {
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 20px 0px 50px 0px;
+}
+
+nav {
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;    
+    color: white;
+    padding-top: 40px;
+}
+
+nav ul {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 1px;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    background-color: gray;
+    color: white;
+    padding: 10px 0px;
+    border: 1px solid;
+    border-radius: 5% 5% 0% 0%;
+    transition: 0.2s;                /** Propiedad para visualizar los cambios de una transicion */
+}
+
+nav ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+}
+
+/**
+    Cambiar de color el enlace al pasar por arriba con el puntero
+*/
+.navegacion:hover {
+    background-color: rgb(200, 60, 90); 
+}
+
+/**
+    Clases de la seccion de Redes Sociales
+*/
+.redes-sociales a {
+    color: black;
+}
+
+.redes-sociales .linkedin:hover {
+    color: rgb(14, 118, 168);
+}
+
+.redes-sociales .facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.redes-sociales .twitter:hover {
+    color: rgb(0, 172, 238);
+}
+
+.redes-sociales .instagram:hover {
+    color: #e4404f;
+}
+
+.redes-sociales .discord:hover {
+    color: #5865F2;
+}
+
+.redes-sociales .youtube:hover {
+    color: red;
 }
