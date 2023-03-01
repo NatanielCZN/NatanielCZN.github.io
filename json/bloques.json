@@ -1,0 +1,8 @@
+{
+    "lenguaje1" :{
+        "texto": "Siempre que puedo, busco material de lenguajes de programacion que me gustaria aprender",
+        "link1": "images/lenguajes/Kotlin.png",
+        "link2": "images/lenguajes/csharp.jpg",
+        "link3": "images/lenguajes/Java.png"
+    }
+}

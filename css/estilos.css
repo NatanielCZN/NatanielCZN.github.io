@@ -14,7 +14,7 @@ header {
 */
 .foto-de-perfil {
     margin: 40px 0px 40px 0px;
-    width: 180;
+    width: 180px;
     height: 180px;
     border: 2px solid;
     border-color: gray;
@@ -93,13 +93,15 @@ footer {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
-    height: 9vh;
+    height: 7vh;    
     align-items: center;
     justify-content: center;
     background-color: black;    
     color: white;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 nav ul {
@@ -164,4 +166,41 @@ nav ul li a:hover {
 
 .redes-sociales .youtube:hover {
     color: red;
+}
+
+/**
+    Clase que contiene un bloque de imagenes ocultas
+*/
+.imagen-bloque {
+    display: none;
+}
+
+.imagen-bloque img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+/**
+    Clase que pertenece al boton mostrar contenido de Hobbies
+*/
+.boton-mostrar {
+    margin-bottom: 20px;
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
+
+/**
+    Clase que pertenece al boton ocultar contenido de Hobbies
+*/
+.boton-ocultar {
+    margin-bottom: 20px;
+    border-radius: 10%;
+    background-color: red;
+    color: white;
+}
+
+hr {
+    color: gray;
 }
