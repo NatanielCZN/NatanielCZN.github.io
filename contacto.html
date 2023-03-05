@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- FONT "TITAN ONE" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto+Condensed:wght@300&family=Titan+One&display=swap"
+        rel="stylesheet">
+
+    <!-- ESTILOS PROPIOS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+
+    <!-- ICONO -->
+    <link rel="icon" type="image/x-icon" href="images/CVPF.png">
+
+    <!-- OPEN GRAPH DATA -->
+    <meta property="og:title" content="PF | Nataniel Cazon" />
+    <meta property="og:type" content="Curriculum Vitae" />
+    <meta property="og:url" content="https://github.com/NatanielCZN/ProyectoFinal.git" />
+    <meta property="og:image" content="images/OGPresentacion.png" />
+    <meta property="og:description"
+        content="Esta es una pagina web que contiene el CV del alumno Nataniel Cazon, para el Proyecto Final del curso 'Front end Academy - 2022'" />
+
+    <title>PF | Contacto</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" translate="no"><strong>Curriculum</strong></a>
+            </li>
+
+            <li>
+                <!-- El atributo "rel="noopener noreferrer" previene de ataques maliciosos al abrir una pestaña nueva con el atributo targer="_blank"" -->
+                <a href="https://github.com/NatanielCZN/ProyectoFinal.git" target="_blank" rel="noopener noreferrer"
+                    translate="no"><strong>Proyectos</strong></a>
+            </li>
+
+            <li>
+                <a class="activa" href="contacto.html" translate="no"><strong>Contacto</strong></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <!-- NOMBRE Y OCUPACION -->
+            <div class="titulo">
+                <h1 translate="no"><strong>CONTACTO</strong></h1>
+
+                <h3>FORMULARIO</h3>
+            </div>
+
+            <div class="requisito">
+                <p>Si desea contactarme, porfavor llene el siguiente formulario. Alguno de los campos (<span
+                        class="obligatorio"><strong>*</strong></span>) son <strong>obligatorios</strong>.</p>
+                <hr />
+            </div>
+
+            <form class="formulario" action="contacto.html" method="get">
+                <div class="campo">
+                    <label for="nombre"><strong>NOMBRE/S</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <input class="relleno" type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre..." />
+                </div>
+
+                <div class="campo">
+                    <label for="apellido"><strong>APELLIDO/S</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <input class="relleno" type="text" id="apellido" name="apellido"
+                        placeholder="Ingrese Apellido..." />
+                </div>
+
+                <div class="campo">
+                    <label for="institucion"><strong>INSTITUCION</strong></label><br />
+
+                    <input class="relleno" type="text" id="institucion" name="institucion"
+                        placeholder="Ingrese Institucion..." />
+                </div>
+
+                <div class="campo">
+                    <label for="pais"><strong>PAIS</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <select class="relleno" id="pais" name="pais">
+                        <option value="pais-argentina">Argentina</option>
+                        <option value="pais-brazil">Brazil</option>
+                        <option value="pais-bolivia">Bolivia</option>
+                        <option value="pais-chile">Chile</option>
+                        <option value="pais-colombia">Colombia</option>
+                        <option value="pais-ecuador">Ecuador</option>
+                        <option value="pais-paraguay">Paraguay</option>
+                        <option value="pais-peru">Peru</option>
+                        <option value="pais-uruguay">Uruguay</option>
+                        <option value="pais-venezuela">Venezuela</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="correo"><strong>CORREO ELECTRONICO</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <input class="relleno" type="email" id="correo" name="correo" placeholder="Ingrese Correo..." />
+                </div>
+
+                <div class="campo">
+                    <label for="telefono"><strong>N° TELEFONO</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <input class="relleno" type="text" id="telefono" name="telefono"
+                        placeholder="Ingrese N° de Telefono..." />
+                </div>
+
+                <div class="campo">
+                    <label for="sitio-web"><strong>SITIO WEB</strong></label><br />
+
+                    <input class="relleno" type="text" id="sitio-web" name="sitio-web"
+                        placeholder="Ingrese Sitio Web..." />
+                </div>
+
+                <div class="campo">
+                    <label for="asunto"><strong>ASUNTO</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <input class="relleno" type="text" id="asunto" name="asunto" placeholder="Ingrese Asunto..." />
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje"><strong>MENSAJE</strong> <span
+                            class="obligatorio"><strong>*</strong></span></label><br />
+
+                    <textarea name="message" placeholder="Ingrese Mensaje..."></textarea>
+                </div>
+
+                <div class="boton-enviar">
+                    <input type="submit" value="ENVIAR MENSAJE" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>©Todos los derechos reservados - 2023</p>
+    </footer>
+
+    <!-- SCRIPTS ICONOS FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/427aab208b.js" crossorigin="anonymous"></script>
+
+    <!-- SCRIPTS DE COMPORTAMIENTOS -->
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>
